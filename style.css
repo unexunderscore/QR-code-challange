@@ -1,3 +1,31 @@
 body {
     background-color: hsl(212, 45%, 89%);
+    margin-top: 8rem;
+}
+
+.container{
+    display: flex;
+    width: 20rem;
+    height: 30rem;
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container:hover {
+    box-shadow: 0 32px 64px 0 rgba(0,0,0,0.2);
+  }
+
+.qr-img{
+    border-radius: 10px;
+    width: 90%;
+    display: block;
+    margin: 1rem 1rem;
+}
+
+.card{
+   text-align: center;
+    
 }
